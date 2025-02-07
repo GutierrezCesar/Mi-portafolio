@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Red+Rose:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;    
+}
+
+.header {    
+    padding: 2% 0% 0% 15%;
+}
+
+.header_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #A6CDC6;
+    text-decoration: none;
+}
+
+.presentacion {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.presentacion_contenido {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;    
+}
+
+.presentacion_contenido_titulo {    
+    font-size: 2.5rem;
+    font-family: "Krona One", serif; 
+    text-align: center;       
+}
+
+.titulo_resaltado {
+    color: #A6CDC6;
+}
+
+.presentacion_contenido_texto {
+    font-family: "Chakra Petch", serif;
+    font-size: 2rem;
+    text-align: justify;    
+    /*border: 5px double #FFCDB2;*/
+    /*border-radius: 10px;*/
+}
+
+.presentacion_enlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 32px;
+}
+
+.presentacion_enlaces_subtitulo {
+    font-family: "Krona One", serif;
+    color: #A6CDC6;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.presentacion__enlaces__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 5px solid #16404D;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", serif;
+}
+
+.presentacion__enlaces__link:hover {
+    background-color: #272727;
+}
+
+
+.foto_personal {
+    width: 35%;
+    height: auto;
+    border-radius: 32px;
+    border: 5px solid #16404D ;
+}
+
+.footer {    
+    background-color: #16404D; 
+    padding: 24px;
+    text-align: center;
+    font-family: "Chakra Petch", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 10%;
+    }
+    
+    .header_menu {
+        justify-content: center;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion_contenido{
+        width: auto;
+    }
+
+}
