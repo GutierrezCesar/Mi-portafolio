@@ -93,9 +93,43 @@ body {
     font-family: "Montserrat", serif;
 }
 
+.presentacion_contenido_subtitulo {
+    text-align: center;
+    color: aquamarine;
+    font-size: 32px;
+    font-family: "Montserrat", serif;
+}
+
+.class_presentacion_tecnologias {
+    display: flex;
+    gap: 20px;  
+}
+
+.class_presentacion_tecnologias_filas {
+    padding: 2px 20px;   
+}
+
+.presentacion_tecnologias_texto {
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+
+.imagen_tecnologias {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;  
+}
+
+.presentacion__enlaces__descarga {
+    width: 10px;
+    height: 10px;
+}
+
 .presentacion__enlaces__link:hover {
     background-color: #272727;
 }
+
 
 
 .foto_personal {
